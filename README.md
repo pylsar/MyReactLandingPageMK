@@ -1,2 +1,6 @@
-# MyReactLandingPageMK
- mortal Kombat labding page
+Просто лендинг на реакте, с целью закрепить базовые знания react  и scss.
+Для запуска npm start
+
+
+// перенести фотки в assets 
+// футер

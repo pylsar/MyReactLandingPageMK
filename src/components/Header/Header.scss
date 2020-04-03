@@ -1,0 +1,26 @@
+@import "../../settings.scss";
+.header{
+  z-index: 100;
+  width: 100vw;
+  height: 10vh;
+  background: $bg;
+  & nav{
+    & ul {
+      height: 10vh;
+      @include flexbox;
+      @include justify-content(space-around);
+      @include align-items(center);
+      & li{
+        & a {
+          text-decoration: none;
+          color: $black;
+          font-weight: bold;
+          opacity: .7;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

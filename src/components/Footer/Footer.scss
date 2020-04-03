@@ -1,0 +1,12 @@
+@import '../../settings.scss';
+.footer {
+  width: 100vw;
+  height: 20vh;
+  background: $bg;
+  & ul {
+    @include flexbox;
+    @include justify-content(space-around);
+    @include align-items(center);
+    height: 20vh;
+  }
+}
