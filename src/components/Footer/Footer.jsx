@@ -7,16 +7,16 @@ const Footer = () => {
     <footer className="footer">
       <ul>
         <li>
-          <a href="#">gitHub</a>
+          <a href="https://github.com/pylsar" target="_blank">gitHub</a>
         </li>
         <li>
-          <a href="#">codePen</a>
+          <a href="https://codepen.io/collection/Aawzba" target="_blank">codePen</a>
         </li>
         <li>
-          <a href="#">codeSandbox</a>
+          <a href="https://codesandbox.io/u/pylsar" target="_blank">codeSandbox</a>
         </li>
         <li>
-          <a href="#">email</a>
+          <a href="https://codesandbox.io/u/pylsar" target="_blank">codeWars</a>
         </li>
       </ul>
     </footer>
